@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    clear: both;
+}
+
+.nav {
+    height: 40px;
+    line-height: 40px;
+    background-color: black;
+}
+
+.nav ul.main-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+}
+
+.nav ul.main-menu li {
+    float: left;
+    margin-right: 10px;
+}
+
+.nav ul.main-menu a {
+    color: #FFF;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.login-wrapper {
+    width: 400px;
+    margin: 10% auto;
+}

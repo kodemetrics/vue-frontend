@@ -1,0 +1,3 @@
+npm install -g @vue/cli
+vue create vue-frontend
+npm install vue-router
