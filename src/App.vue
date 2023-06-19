@@ -1,32 +1,25 @@
 <template>
-    <div id="wrapper">
-      <div class="nav">
-           <div class="container">
-             <ul class="main-menu">
-                <li><router-link to="/"> Home</router-link></li>
-                <li><router-link to="/about"> About</router-link> </li>
-             </ul>
-           </div>
-      </div>
-      <router-view></router-view>
-    </div>
+     <router-view></router-view>
 </template>
 
-<script>
 
-export default {
-  name: 'App'
-}
+<script setup>
+//   import {computed} from "@vue/reactivity";
+//   import {onMounted, ref}  from 'vue';
+
+//   const firstname = "";
+//   const data = ref([]);
+
+//   computed(() => {
+//      console.log(firstname);
+//      console.log(data);
+//      console.log("computed");
+//   });
+
+//   onMounted(() => {
+//      console.log("onMounted");
+//   });
 
 </script>
 
-<style>
-/* #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-} */
-</style>
+
